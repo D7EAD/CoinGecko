@@ -10,8 +10,7 @@
 <br>
 <h2>Structure</h2>
 <p>This repository abides by the following structure:</p>
-<pre>
-  CoinGecko/            : root
+<pre>CoinGecko/            : root
     src/                   : source files directory
       include/                : header files directory
     documentation/         : base documentation folder
