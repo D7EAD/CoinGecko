@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="460" height="125" src="/images/coingecko.jpg"><img width="160" height="125" src="https://media3.giphy.com/media/cfuGFUnMy4A28vtuCI/giphy.gif">
+  <img width="460" height="125" src="/images/coingecko.jpg"><img width="160" height="125" src="https://i.giphy.com/media/JQpS5az5AyUQdRd36r/giphy.webp">
 </p>
 <h3 align="center">A C++20 library for the cryptocurrency data provider, <a href="https://www.coingecko.com/">CoinGecko</a>.</h3>
 <hr>
