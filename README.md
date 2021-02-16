@@ -36,4 +36,4 @@
     images/                : image folder for repository
 *Static libraries are compressed via RAR
 </pre>
-<p>You can find a starting point and all other documentation within <code>/documentation</code>.
+<p>You can find a starting point and all other documentation within <a href="/documentation">/documentation</a>.
