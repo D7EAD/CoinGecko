@@ -10,7 +10,8 @@
 <br>
 <h2>Structure</h2>
 <p>This repository abides by the following structure:</p>
-<pre>CoinGecko/            : root
+<pre>
+  CoinGecko/            : root
     src/                   : source files directory
       include/                : header files directory
     documentation/         : base documentation folder
@@ -26,14 +27,13 @@
       simple/                 : API 'simple' functions
       status_updates/         : API 'status_updates' functions
       trending/               : API 'trending' functions
-    lib/                   : static library folder*
-      x64/                   : 64-bit libraries
-      x86/                   : 32-bit libraries
+    lib/                   : static library folder
+      x64/                   : 64-bit libraries*
+      x86/                   : 32-bit libraries*
     dll/                   : dynamic library folder
       x64/                   : 64-bit libraries
       x86/                   : 32-bit libraries
     images/                : image folder for repository
-
-*Static libraries are compressed down via RAR
+*Static libraries are compressed via RAR
 </pre>
 <p>You can find a starting point and all other documentation within <code>/documentation</code>.
