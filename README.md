@@ -3,4 +3,3 @@
 </p>
 <h3 align="center">A C++20 library for the cryptocurrency data provider, <a href="https://www.coingecko.com/">CoinGecko</a>.</h3>
 <hr>
-<h1>Description</h1>
