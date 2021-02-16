@@ -12,6 +12,8 @@
 <p>This repository abides by the following structure:</p>
 <pre>
   CoinGecko/            : root
+    src/                   : source files directory
+      include/                : header files directory
     documentation/         : base documentation folder
       coins/                  : API 'coins' functions
       contract/               : API 'contract' functions
@@ -25,6 +27,12 @@
       simple/                 : API 'simple' functions
       status_updates/         : API 'status_updates' functions
       trending/               : API 'trending' functions
+    lib/                   : static library folder
+      x64/                   : 64-bit libraries
+      x86/                   : 32-bit libraries
+    dll/                   : dynamic library folder
+      x64/                   : 64-bit libraries
+      x86/                   : 32-bit libraries
     images/                : image folder for repository
 </pre>
 <p>You can find a starting point and all other documentation within <code>/documentation</code>.
