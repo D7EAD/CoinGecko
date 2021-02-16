@@ -6,4 +6,4 @@
 <h2>Description</h2>
 <p>CoinGecko is a service that provides a fundamental analysis of the crypto market. As one of the largest and earliest crypto data aggregators--operating since early 2014--it currently tracks nearly 6283 tokens from more than 428 cryptocurrency exchanges. In addition to tracking price, volume and market capitalization, it tracks community growth, open-source code development, major events and on-chain metrics. Its objective is to elevate crypto participants’ understanding of fundamental factors that drive the market.</p>
 
-<p>With CoinGecko's C++ library--one of <a href="https://www.coingecko.com/en/api">many API libraries</a>--you can retrieve useful cryptocurrency and market-related information on the fly within any respective application. </p>
+<p>With CoinGecko's C++ library--being one of <a href="https://www.coingecko.com/en/api">many API libraries</a>--you can retrieve useful cryptocurrency and market-related information on the fly within any respective application. </p>
