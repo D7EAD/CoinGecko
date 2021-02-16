@@ -27,4 +27,4 @@
       trending/
     images/
 </pre>
-<p>You can find a starting point and all other documentation within `/documentation`.
+<p>You can find a starting point and all other documentation within <code>/documentation</code>.
