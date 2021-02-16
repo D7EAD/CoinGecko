@@ -13,27 +13,27 @@
 <pre>
   CoinGecko/            : root
     <a href="/src">src/</a>                   : source files directory
-      include/                : header files directory
-    documentation/         : base documentation folder
-      coins/                  : API 'coins' functions
-      contract/               : API 'contract' functions
-      derivatives/            : API 'derivatives' functions
-      events/                 : API 'events' functions
-      exchange_rates/         : API 'exchange_rates' functions 
-      exchanges/              : API 'exchanges' functions
-      finance/                : API 'finance' functions
-      global/                 : API 'global' functions
-      indexes/                : API 'indexes' functions
-      simple/                 : API 'simple' functions
-      status_updates/         : API 'status_updates' functions
-      trending/               : API 'trending' functions
-    lib/                   : static library folder
-      x64/                   : 64-bit libraries*
-      x86/                   : 32-bit libraries*
-    dll/                   : dynamic library folder
-      x64/                   : 64-bit libraries
-      x86/                   : 32-bit libraries
-    images/                : image folder for repository
+      <a href="/src/include">include/                : header files directory
+    <a href="/documentation">documentation/         : base documentation folder
+      <a href="/documentation/coins">coins/                  : API 'coins' functions
+      <a href="/documentation/contract">contract/               : API 'contract' functions
+      <a href="/documentation/derivatives">derivatives/            : API 'derivatives' functions
+      <a href="/documentation/events">events/                 : API 'events' functions
+      <a href="/documentation/exchange_rates">exchange_rates/         : API 'exchange_rates' functions 
+      <a href="/documentation/exchanges">exchanges/              : API 'exchanges' functions
+      <a href="/documentation/finance">finance/                : API 'finance' functions
+      <a href="/documentation/global">global/                 : API 'global' functions
+      <a href="/documentation/indexes">indexes/                : API 'indexes' functions
+      <a href="/documentation/simple">simple/                 : API 'simple' functions
+      <a href="/documentation/status_updates">status_updates/         : API 'status_updates' functions
+      <a href="/documentation/trending">trending/               : API 'trending' functions
+    <a href="/lib">lib/                   : static library folder
+      <a href="/lib/x64">x64/                   : 64-bit libraries*
+      <a href="/lib/x86">x86/                   : 32-bit libraries*
+    <a href="/dll">dll/                   : dynamic library folder
+      <a href="/dll/x64">x64/                   : 64-bit libraries
+      <a href="/dll/x86">x86/                   : 32-bit libraries
+    <a href="/images">images/                : image folder for repository
 *Static libraries are compressed via RAR
 </pre>
 <p>You can find a starting point and all other documentation within <a href="/documentation">/documentation</a>.
