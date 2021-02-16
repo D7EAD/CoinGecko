@@ -12,7 +12,7 @@
 <p>This repository abides by the following structure:</p>
 <pre>
   CoinGecko/            : root
-    src/                   : source files directory
+    <a href="/src">src/</a>                   : source files directory
       include/                : header files directory
     documentation/         : base documentation folder
       coins/                  : API 'coins' functions
