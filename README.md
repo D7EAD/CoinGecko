@@ -27,13 +27,6 @@
       <a href="/documentation/simple">simple/</a>                 : API 'simple' functions
       <a href="/documentation/status_updates">status_updates/</a>         : API 'status_updates' functions
       <a href="/documentation/trending">trending/</a>               : API 'trending' functions
-    <a href="/lib">lib/</a>                   : static library folder
-      <a href="/lib/x64">x64/</a>                   : 64-bit libraries*
-      <a href="/lib/x86">x86/</a>                   : 32-bit libraries*
-    <a href="/dll">dll/</a>                   : dynamic library folder
-      <a href="/dll/x64">x64/</a>                   : 64-bit libraries
-      <a href="/dll/x86">x86/</a>                   : 32-bit libraries
     <a href="/images">images/</a>                : image folder for repository
-*Static libraries are compressed via RAR
 </pre>
 <p>You can find a starting point and all other documentation within <a href="/documentation">/documentation</a>.
