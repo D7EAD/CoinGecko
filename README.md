@@ -13,18 +13,18 @@
 <pre>
   CoinGecko/            : root
     documentation/         : base documentation folder
-      coins/                  : documentation for CoinGecko API 'coins' functions
-      contract/               : documentation for CoinGecko API 'contract' functions
-      derivatives/            : documentation for CoinGecko API 'derivatives' functions
-      events/                 : documentation for CoinGecko API 'events' functions
-      exchange_rates/         : documentation for CoinGecko API 'exchange_rates' functions 
-      exchanges/              : documentation for CoinGecko API 'exchanges' functions
-      finance/                : documentation for CoinGecko API 'finance' functions
-      global/                 : documentation for CoinGecko API 'global' functions
-      indexes/                : documentation for CoinGecko API 'indexes' functions
-      simple/                 : documentation for CoinGecko API 'simple' functions
-      status_updates/         : documentation for CoinGecko API 'status_updates' functions
-      trending/               : documentation for CoinGecko API 'trending' functions
+      coins/                  : API 'coins' functions
+      contract/               : API 'contract' functions
+      derivatives/            : API 'derivatives' functions
+      events/                 : API 'events' functions
+      exchange_rates/         : API 'exchange_rates' functions 
+      exchanges/              : API 'exchanges' functions
+      finance/                : API 'finance' functions
+      global/                 : API 'global' functions
+      indexes/                : API 'indexes' functions
+      simple/                 : API 'simple' functions
+      status_updates/         : API 'status_updates' functions
+      trending/               : API 'trending' functions
     images/                : image folder for repository
 </pre>
 <p>You can find a starting point and all other documentation within <code>/documentation</code>.
