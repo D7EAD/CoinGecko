@@ -12,18 +12,18 @@
 <p>This repository abides by the following structure:</p>
 <pre>
   CoinGecko/
-        documentation/
-              coins/
-              contract/
-              derivatives/
-              events/
-              exchange_rates/
-              exchanges/
-              finance/
-              global/
-              indexes/
-              simple/
-              status_updates/
-              trending/
-        images/
+    documentation/
+      coins/
+      contract/
+      derivatives/
+      events/
+      exchange_rates/
+      exchanges/
+      finance/
+      global/
+      indexes/
+      simple/
+      status_updates/
+      trending/
+    images/
 </pre>
