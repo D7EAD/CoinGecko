@@ -4,7 +4,7 @@
 <h3 align="center">Documentation resources for the library and <a href="https://www.coingecko.com/">CoinGecko</a>'s API.</h3>
 <hr>
 <h2>Introduction</h2>
-<p>CoinGecko follows a <code>topLevelObject.memberObject.memberObjectMethod()</code> code structure (with the exception of ping) like the one below:</p>
+<p>CoinGecko's source code follows a <code>topLevelObject.memberObject.memberObjectMethod()</code> code structure (with the exception of ping) like the one below:</p>
 
 #### **`topLevelClass.h`**
 ```c
