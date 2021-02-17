@@ -30,6 +30,7 @@ class topLevelClass {
 ```
 
 <br><br>
+<h2>Examples</h2>
 <p>For instance, if you wanted to get the price of a certain token, you would do the following.</p>
 
 ```c
