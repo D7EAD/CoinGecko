@@ -31,7 +31,7 @@ class topLevelClass {
 
 <br><br>
 <h2>Examples</h2>
-<p>Below you can find several examples of using Coingecko; all examples are extensively commented.</p>
+<p>Below you can find several examples using CoinGecko; all examples are extensively commented.</p>
 
 #### **`getBitcoinPrice.cpp`** -> obtains current price of Bitcoin in USD
 ```c
