@@ -10,6 +10,7 @@
 <br>
 <h2>Installation</h2>
 <p>To use in your project(s), simply download the <a href="https://github.com/D7EAD/CoinGecko/releases">latest CoinGecko release</a> and link to the appropriate set of libraries. Keep in mind that if the release you choose--or the latest available--is a pre-release, expect untested functionality.</p>
+<p>You can find a starting point and all other documentation within <a href="/documentation">/documentation</a>.
 <br>
 <h2>Structure</h2>
 <p>This repository abides by the following structure:</p>
@@ -32,4 +33,3 @@
       <a href="/documentation/trending">trending/</a>               : API 'trending' functions
     <a href="/images">images/</a>                : image folder for repository
 </pre>
-<p>You can find a starting point and all other documentation within <a href="/documentation">/documentation</a>.
