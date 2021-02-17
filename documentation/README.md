@@ -6,6 +6,7 @@
 <h2>Introduction</h2>
 <p>CoinGecko follows a <code>topLevelObject.memberObject.memberObjectMethod()</code> code structure (with the exception of ping) like the one below:</p>
 
+#### **`topLevelClass.h`**
 ```c
 // topLevelClass.h
 #include "otherClass1.h"
@@ -16,8 +17,10 @@ class topLevelClass {
     otherClass1 memberObject1;
     otherClass2 memberObject2;
 };
+```
 
-// main.cpp
+#### **`main.cpp`**
+```c
 #include "topLevelClass.h"
 
 int main() {
