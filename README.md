@@ -9,8 +9,10 @@
 <p>With this C++ library--being one of many <a href="https://www.coingecko.com/en/api">open-source API libraries</a>--you can retrieve useful cryptocurrency and market-related information on the fly within any respective application using a simple syntax.</p>
 <br>
 <h2>Installation</h2>
-<p>To use in your project(s), simply download the <a href="https://github.com/D7EAD/CoinGecko/releases">latest CoinGecko release</a> and link to the appropriate set of libraries. Keep in mind that if the release you choose--or the latest available--is a pre-release, expect untested functionality.</p>
-<p>You can find a starting point and all other documentation within <a href="/documentation">/documentation</a>.
+<p>To use in your project(s), simply download the <a href="https://github.com/D7EAD/CoinGecko/releases">latest CoinGecko release</a> and link to the appropriate set of libraries. Keep in mind that if the release you choose--or the latest available--is a pre-release, expect untested functionality.
+
+You can find a starting point and all other documentation within <a href="/documentation">/documentation</a>.</p>
+
 <br>
 <h2>Structure</h2>
 <p>This repository abides by the following structure:</p>
