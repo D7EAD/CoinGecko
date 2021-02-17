@@ -31,8 +31,9 @@ class topLevelClass {
 
 <br><br>
 <h2>Examples</h2>
-<p>For instance, if you wanted to get the price of a certain token, you would do the following.</p>
+<p>Below you can find several examples of using Coingecko; all examples are commented with their intended functionality.</p>
 
+#### **`getBitcoinPrice.cpp`**
 ```c
 #include "gecko.h"
 
