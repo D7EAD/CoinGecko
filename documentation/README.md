@@ -35,7 +35,9 @@ class topLevelClass {
 
 #### **`getBitcoinPrice.cpp`**
 ```c
-// obtains the current price of Bitcoin
+/*
+  Obtains the current price of Bitcoin
+*/  
 #include "gecko.h"
 
 int main() {
