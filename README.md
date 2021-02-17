@@ -21,8 +21,10 @@ CoinGecko depends on the following packages:
   <li>CPR : cURL wrapper to make it less monotonous*</li>
   <li>OpenSSL : to be able to make HTTPS requests</li>
 </ul>
-<p><i>All dependencies used to compile CoinGecko were implemented via vcpkg.</i></p>
-<p>*CPR version in use is 1.5.3 as vcpkg has that as its most recent indexed version.</p>
+<ul>
+  <li><i>All dependencies used to compile CoinGecko were implemented via vcpkg.</i></li>
+  <li>*CPR version in use is v1.5.2 as vcpkg has that as its most recent indexed version.</li>
+</ul>
 
 <br>
 <h2>Structure</h2>
