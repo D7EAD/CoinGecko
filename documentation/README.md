@@ -50,7 +50,6 @@ int main() {
     std::cout << "CoinGecko offline!" << std::endl;
   }
   
-  // exit
   return 0;
 }
 ```
