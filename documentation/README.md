@@ -8,7 +8,6 @@
 
 #### **`topLevelClass.h`**
 ```c
-// topLevelClass.h
 #include "otherClass1.h"
 #include "otherClass2.h"
 
