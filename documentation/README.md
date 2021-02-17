@@ -29,6 +29,7 @@ class topLevelClass {
 };
 ```
 
+<br>
 <p>For instance, if you wanted to get the price of a certain token, you would do the following.</p>
 
 ```c
