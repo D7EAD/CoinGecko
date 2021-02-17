@@ -31,10 +31,11 @@ class topLevelClass {
 
 <br><br>
 <h2>Examples</h2>
-<p>Below you can find several examples of using Coingecko; all examples are commented with their intended functionality.</p>
+<p>Below you can find several examples of using Coingecko; all examples are extensively commented.</p>
 
 #### **`getBitcoinPrice.cpp`**
 ```c
+// obtains the current price of Bitcoin
 #include "gecko.h"
 
 int main() {
