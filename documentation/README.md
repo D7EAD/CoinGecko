@@ -6,6 +6,17 @@
 <h2>Introduction</h2>
 <p>CoinGecko's source code follows a <code>topLevelObject.memberObject.memberObjectMethod()</code> code structure (with the exception of ping) like the one below:</p>
 
+#### **`main.cpp`**
+```c
+#include "topLevelClass.h"
+
+int main() {
+  topLevelClass topLevelObject;
+  topLevelObject.memberObject.memberObjectMethod();
+  return 0;
+}
+```
+
 #### **`topLevelClass.h`**
 ```c
 #include "otherClass1.h"
@@ -16,17 +27,6 @@ class topLevelClass {
     otherClass1 memberObject1;
     otherClass2 memberObject2;
 };
-```
-
-#### **`main.cpp`**
-```c
-#include "topLevelClass.h"
-
-int main() {
-  topLevelClass topLevelObject;
-  topLevelObject.memberObject.memberObjectMethod();
-  return 0;
-}
 ```
 
 <p>For instance, if you wanted to get the price of a certain token, you would do the following.</p>
