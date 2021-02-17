@@ -17,9 +17,9 @@ You can find a starting point, sample code, and all other documentation within <
 <h2>Dependencies</h2>
 CoinGecko depends on the following packages:
 <ul>
-  <li>cURL : C library for HTTP(S) things</li>
-  <li>CPR : cURL wrapper to make it less monotonous*</li>
-  <li>OpenSSL : to be able to make HTTPS requests</li>
+  <li><a href="https://curl.se/">cURL</a> : C library for HTTP(S) things</li>
+  <li><a href="https://github.com/whoshuu/cpr">CPR</a> : cURL wrapper to make it less monotonous*</li>
+  <li><a href="https://www.openssl.org/">OpenSSL</a> : to be able to make HTTPS requests</li>
 </ul>
 Notes:
 <ul>
