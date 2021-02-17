@@ -18,10 +18,11 @@ You can find a starting point, sample code, and all other documentation within <
 CoinGecko depends on the following packages:
 <ul>
   <li>cURL : C library for HTTP(S) things</li>
-  <li>CPR : cURL wrapper to make it less monotonous</li>
+  <li>CPR : cURL wrapper to make it less monotonous*</li>
   <li>OpenSSL : to be able to make HTTPS requests</li>
 </ul>
-<p><i>All dependencies used to compile CoinGecko were implemented via vcpkg.</i></p>
+<p><i>All dependencies used to compile CoinGecko were implemented via vcpkg.</i>
+*CPR version in use is 1.5.3 as vcpkg has that as its most recent indexed version.</p>
 
 <br>
 <h2>Structure</h2>
