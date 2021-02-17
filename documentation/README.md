@@ -12,8 +12,9 @@
 #include "otherClass2.h"
 
 class topLevelClass {
-  public: otherClass1 memberObject1;
-  public: otherClass2 memberObject2;
+  public: 
+    otherClass1 memberObject1;
+    otherClass2 memberObject2;
 };
 
 // main.cpp
