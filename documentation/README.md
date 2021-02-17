@@ -3,3 +3,26 @@
 </p>
 <h3 align="center">Documentation resources for the library and <a href="https://www.coingecko.com/">CoinGecko</a>'s API.</h3>
 <hr>
+<h2>Introduction</h2>
+<p>CoinGecko follows a <code>mainClass.memberClass.memberClassMethod()</code> code structure (with the exception of ping). For instance, if you wanted to get the price of a certain token, you would do the following.</p>
+
+```c
+#include "gecko.h"
+
+int main() {
+  // CoinGecko main class object
+  gecko::api coinGecko;
+  
+  // check if CoinGecko API is online
+  if (coinGecko.ping()) {
+    // if online, get Bitcoin's most recent price in USD and print the JSON response
+    std::cout << coinGecko.simple.getPrice("bitcoin", "usd").text << std::endl;
+  } else {
+    // if offline, print offline.
+    std::cout << "CoinGecko offline!" << std::endl;
+  }
+  
+  // exit
+  return 0;
+}
+```
