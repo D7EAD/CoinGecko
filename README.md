@@ -14,6 +14,15 @@
 You can find a starting point, sample code, and all other documentation within <a href="/documentation">/documentation</a>. You can also find <i>extensive</i> code-comment documentation within all files located in <a href="src/include">src/include</a>.</p>
 
 <br>
+<h2>Dependencies</h2>
+<ul>CoinGecko depends on the following packages:
+  <li>cURL: C library for things HTTP(S)</li>
+  <li>CPR: C++ wrapper for cURL</li>
+  <li>OpenSSL : to be able to make HTTPS requests</li>
+</ul>
+<p><i>All dependencies used to compile CoinGecko were implemented via vcpkg.</i></p>
+
+<br>
 <h2>Structure</h2>
 <p>This repository abides by the following structure:</p>
 <pre>
