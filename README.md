@@ -11,7 +11,7 @@
 <h2>Installation</h2>
 <p>To use in your project(s), simply download the <a href="https://github.com/D7EAD/CoinGecko/releases">latest CoinGecko release</a> and link to the appropriate set of libraries. Keep in mind that if the release you choose--or the latest available--is a pre-release, expect untested functionality.
 
-You can find a starting point, sample code, and all other documentation within <a href="/documentation">/documentation</a>. You can also find <i>extensive</i> documentation within all files located in <a href="src/include">src/include</a>.</p>
+You can find a starting point, sample code, and all other documentation within <a href="/documentation">/documentation</a>. You can also find <i>extensive</i> code-comment documentation within all files located in <a href="src/include">src/include</a>.</p>
 
 <br>
 <h2>Structure</h2>
