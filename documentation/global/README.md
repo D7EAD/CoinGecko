@@ -19,7 +19,7 @@ namespace gecko {
 
 <br>
 
-<h2>Definitions</h2>
+<h2>Declarations</h2>
 <p>Below you can find documentation for 'global' functions.</p>
 
 <h4><code>global/getGlobalCryptoData</code></h4>
