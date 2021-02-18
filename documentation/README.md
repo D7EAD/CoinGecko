@@ -33,6 +33,7 @@ class parentClass {
 <br><br>
 <h2>Examples</h2>
 <p>Below you can find a few quick examples using CoinGecko.</p>
+<p>For examples using individual functions, refer to the appropriate folder above.</p>
 
 #### **`getBitcoinPrice.cpp`** -> obtains current price of Bitcoin in USD
 ```c
@@ -91,5 +92,3 @@ int main() {
   return 0;
 }
 ```
-
-<p>For examples using individual functions, refer to the appropriate folder above.</p>
