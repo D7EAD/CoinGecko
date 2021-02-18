@@ -12,7 +12,8 @@
 
 int main() {
   parentClass object;
-  object.memberObject.memberObjectMethod();
+  object.memberObject1.memberObjectMethod();
+  object.memberObject2.memberObjectMethod();
   return 0;
 }
 ```
