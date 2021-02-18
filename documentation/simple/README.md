@@ -31,11 +31,11 @@ namespace gecko {
   //    getPrice("bitcoin,ripple", "usd,rub", true, false, true, false)
   // Notes: none
   DllExport gecko::web::response getPrice(
-    REQUIRED std::string id,
-    REQUIRED std::string vs_currencies,
-    OPTIONAL bool includeMarketCap = false,
-    OPTIONAL bool include24HrVol = false,
-    OPTIONAL bool include24HrChange = false,
-    OPTIONAL bool includeLastUpdatedAt = false
+  	REQUIRED std::string id,
+	REQUIRED std::string vs_currencies,
+	OPTIONAL bool includeMarketCap = false,
+	OPTIONAL bool include24HrVol = false,
+	OPTIONAL bool include24HrChange = false,
+	OPTIONAL bool includeLastUpdatedAt = false
   );
 ```
