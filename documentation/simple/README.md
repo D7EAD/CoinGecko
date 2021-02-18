@@ -21,6 +21,7 @@ namespace gecko {
 <p>Below you can find documentation for 'simple' functions.</p>
 
 <h4><code>simple/getPrice</code></h4>
+
 ```
   // Action: fetches price of supplied crypto(s) with supplied ID(s) in the supplied vs_currency or currencies
   // Returns: gecko::web::response
