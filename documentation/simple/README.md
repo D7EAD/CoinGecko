@@ -61,7 +61,7 @@ namespace gecko {
   );
 ```
 
-<h4><code>simple/getTokenPrice</code></h4>
+<h4><code>simple/getSupportedVsCurrencies</code></h4>
 
 ```c
   // Action: fetches CoinGecko's supported options for parameter 'vs_currencies'
