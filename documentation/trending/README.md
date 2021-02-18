@@ -13,7 +13,7 @@ namespace gecko {
   // Status: functional - untested
   class trendingFunctions : private web {
     ...
-  ;}
+  };
 }
 ```
 
