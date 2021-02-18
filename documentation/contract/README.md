@@ -20,7 +20,7 @@ namespace gecko {
 <br>
 
 <h2>Declarations</h2>
-<p>Below you can find documentation for 'simple' functions.</p>
+<p>Below you can find documentation for 'contract' functions.</p>
 
 <h4><code>contract/getCoinInfoFromContract</code></h4>
 
