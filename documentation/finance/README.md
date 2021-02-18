@@ -36,3 +36,20 @@ namespace gecko {
     OPTIONAL unsigned short page = 1
   );
 ```
+
+<h4><code>finance/listFinancePlatforms</code></h4>
+
+```c
+  // Action: fetches all finance platforms
+  // Returns: gecko::web::response
+  // Refer: https://www.coingecko.com/api/documentations/v3
+  // Example(s):
+  //    listFinancePlatforms()
+  // Notes: none
+  gecko::web::response listFinanceProducts(
+    OPTIONAL const char* start_at = NULL,
+    OPTIONAL const char* end_at = NULL,
+    OPTIONAL unsigned short per_page = 100,
+    OPTIONAL unsigned short page = 1
+  );
+```
