@@ -20,7 +20,7 @@ namespace gecko {
 <br>
 
 <h2>Definitions</h2>
-<p>Below you can find documentation for 'simple' functions.</p>
+<p>Below you can find documentation for 'global' functions.</p>
 
 <h4><code>simple/getPrice</code></h4>
 
