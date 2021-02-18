@@ -25,7 +25,7 @@ namespace gecko {
 <h4><code>events/getEvents</code></h4>
 
 ```c
-// Action: fetches events
+  // Action: fetches events
   // Returns: gecko::web::response
   // Refer: https://www.coingecko.com/api/documentations/v3
   // Example(s):
