@@ -37,7 +37,7 @@ namespace gecko {
   );
 ```
 
-<h4><code>finance/listFinancePlatforms</code></h4>
+<h4><code>finance/listFinanceProducts</code></h4>
 
 ```c
   // Action: fetches all finance products
