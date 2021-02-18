@@ -17,11 +17,11 @@ namespace gecko {
 				OPTIONAL unsigned short page = 1
 			);
 
-			// Action: fetches all finance platforms
+			// Action: fetches all finance products
 			// Returns: gecko::web::response
 			// Refer: https://www.coingecko.com/api/documentations/v3
 			// Example(s):
-			//    listFinancePlatforms()
+			//    listFinanceProducts()
 			// Notes: none
 			DllExport gecko::web::response listFinanceProducts(
 				OPTIONAL const char* start_at = NULL,
