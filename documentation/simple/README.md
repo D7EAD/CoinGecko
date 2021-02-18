@@ -39,3 +39,24 @@ namespace gecko {
 	OPTIONAL bool includeLastUpdatedAt = false
   );
 ```
+
+<h4><code>simple/getTokenPrice</code></h4>
+
+```
+  // Action: fetches current price of tokens for a given platform in any other currency that you need (using contract addresses)
+  // Returns: gecko::web::response
+  // Refer: https://www.coingecko.com/api/documentations/v3
+  // Example(s):
+  //    getTokenPrice("ethereum", "0x4363e1485764d206b01ddc9ca121030585259f6f", "usd")
+  //    getTokenPrice("ethereum", "0x4363e1485764d206b01ddc9ca121030585259f6f", "usd", true, false, true, false)
+  // Notes: parameter id only supports value "ethereum" as of now
+  gecko::web::response getTokenPrice(
+	REQUIRED std::string id,
+	REQUIRED std::string contract_addresses,
+	REQUIRED std::string vs_currencies,
+	OPTIONAL bool includeMarketCap = false,
+	OPTIONAL bool include24HrVol = false,
+	OPTIONAL bool include24HrChange = false,
+	OPTIONAL bool includeLastUpdatedAt = false
+  );
+```
