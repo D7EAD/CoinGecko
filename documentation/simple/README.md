@@ -17,6 +17,8 @@ namespace gecko {
 }
 ```
 
+<br>
+
 <h2>Definitions</h2>
 <p>Below you can find documentation for 'simple' functions.</p>
 
