@@ -1,7 +1,7 @@
 <p align="center">
   <img width="460" height="125" src="/images/coingecko.jpg">
 </p>
-<h3 align="center">Documentation resources for CoinGecko's <a href="https://www.coingecko.com/api/documentations/v3#/global">'status_updates'</a> API functions.</h3>
+<h3 align="center">Documentation resources for CoinGecko's <a href="https://www.coingecko.com/api/documentations/v3#/status_updates_(beta)">'status_updates'</a> API functions.</h3>
 <hr>
 
 <h2>Class</h2>
