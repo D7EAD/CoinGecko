@@ -33,3 +33,15 @@ namespace gecko {
   // Notes: none
   gecko::web::response getGlobalCryptoData();
 ```
+
+<h4><code>global/getGlobalCryptoDefiData</code></h4>
+
+```c
+  // Action: fetches cryptocurrency global decentralized finance(defi) data
+  // Returns: gecko::web::response
+  // Refer: https://www.coingecko.com/api/documentations/v3
+  // Example(s):
+  //    getGlobalCryptoDefiData()
+  // Notes: none
+  gecko::web::response getGlobalCryptoDefiData();
+```
