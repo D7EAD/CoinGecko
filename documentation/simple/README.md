@@ -17,7 +17,7 @@ namespace gecko {
 }
 ```
 
-<h2>Examples</h2>
+<h2>Definitions</h2>
 <p>Below you can find documentation for 'simple' functions.</p>
 
 <h4><code>simple/getPrice</code></h4>
