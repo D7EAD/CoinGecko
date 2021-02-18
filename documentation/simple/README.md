@@ -22,7 +22,7 @@ namespace gecko {
 
 <h4><code>simple/getPrice</code></h4>
 
-```
+```c
   // Action: fetches price of supplied crypto(s) with supplied ID(s) in the supplied vs_currency or currencies
   // Returns: gecko::web::response
   // Refer: https://www.coingecko.com/api/documentations/v3
@@ -42,7 +42,7 @@ namespace gecko {
 
 <h4><code>simple/getTokenPrice</code></h4>
 
-```
+```c
   // Action: fetches current price of tokens for a given platform in any other currency that you need (using contract addresses)
   // Returns: gecko::web::response
   // Refer: https://www.coingecko.com/api/documentations/v3
