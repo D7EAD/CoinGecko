@@ -45,8 +45,8 @@ int main() {
   // check if CoinGecko API is online
   if (coinGecko.ping()) {
     // if online, get Bitcoin's most recent price in USD and print the JSON response
-    //                                       coin,   currency
     std::cout << coinGecko.simple.getPrice("bitcoin", "usd").text << std::endl;
+    // getPrice(id, vs_currency, includeMarketCap[def:false], include24HrVol[def:false], include24HrChange[def:false], includeLastUpdatedAt[def:false])
   } else {
     // if offline, print offline.
     std::cout << "CoinGecko offline!" << std::endl;
@@ -63,8 +63,9 @@ int main() {
 int main() {
   gecko::api coinGecko;
   
-  if (coinGecko.ping()) { //              country,  type
+  if (coinGecko.ping()) {
     std::cout << coinGecko.events.getEvents("US", "Meetups").text << std::endl;
+    // getEvents(country_code[def:"US"], type[def:"Conference"], page[def:1], upcoming_events_only[def:false], from_date[def:NULL], to_date[def:NULL])
   } else {
     std::cout << "CoinGecko offline!" << std::endl;
   }
@@ -80,8 +81,9 @@ int main() {
 int main() {
   gecko::api coinGecko;
   
-  if (coinGecko.ping()) { //                                      id,                  contract_addres,             currency, days
+  if (coinGecko.ping()) {
     std::cout << coinGecko.contract.getContractMarketHistory("ethereum", "0x4363e1485764d206b01ddc9ca121030585259f6f", "usd", "1").text << std::endl;
+    // getContractMarketHistory(id, contract_address, vs_currency, days)
   } else {
     std::cout << "CoinGecko offline!" << std::endl;
   }
