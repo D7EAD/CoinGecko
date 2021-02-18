@@ -34,7 +34,7 @@ namespace gecko {
 			// Returns: gecko::web::response
 			// Refer: https://www.coingecko.com/api/documentations/v3
 			// Example(s):
-			//    getEventTypes
+			//    getEventTypes()
 			// Notes: none
 			DllExport gecko::web::response getEventTypes();
 	};
