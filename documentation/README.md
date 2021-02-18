@@ -91,3 +91,5 @@ int main() {
   return 0;
 }
 ```
+
+<p>For examples using individual functions, refer to the appropriate folder above.</p>
