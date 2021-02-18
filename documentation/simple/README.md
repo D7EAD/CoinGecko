@@ -60,3 +60,15 @@ namespace gecko {
 	OPTIONAL bool includeLastUpdatedAt = false
   );
 ```
+
+<h4><code>simple/getTokenPrice</code></h4>
+
+```c
+  // Action: fetches CoinGecko's supported options for parameter 'vs_currencies'
+  // Returns: gecko::web::response
+  // Refer: https://www.coingecko.com/api/documentations/v3
+  // Example(s):
+  //    getSupportedVsCurrencies()
+  // Notes: none
+  gecko::web::response getSupportedVsCurrencies();
+```
