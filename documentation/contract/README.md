@@ -7,6 +7,7 @@
 <h2>Class</h2>
 
 ```c
+namespace gecko {
   // Purpose: class interface to all CoinGecko 'contract' functions found below
   // Refer: https://www.coingecko.com/api/documentations/v3#/contract
   // Status: functional - slightly tested
