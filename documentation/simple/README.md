@@ -8,9 +8,9 @@
 
 ```c
 namespace gecko {
-	// Purpose: class interface to all CoinGecko 'simple' functions found below
-	// Refer: https://www.coingecko.com/api/documentations/v3#/simple
-	// Status: functional - slightly tested
+  // Purpose: class interface to all CoinGecko 'simple' functions found below
+  // Refer: https://www.coingecko.com/api/documentations/v3#/simple
+  // Status: functional - slightly tested
   class simpleFunctions : private web {
     ...
   };
