@@ -40,11 +40,11 @@ namespace gecko {
 <h4><code>finance/listFinancePlatforms</code></h4>
 
 ```c
-  // Action: fetches all finance platforms
+  // Action: fetches all finance products
   // Returns: gecko::web::response
   // Refer: https://www.coingecko.com/api/documentations/v3
   // Example(s):
-  //    listFinancePlatforms()
+  //    listFinanceProducts()
   // Notes: none
   gecko::web::response listFinanceProducts(
     OPTIONAL const char* start_at = NULL,
