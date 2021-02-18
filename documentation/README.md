@@ -54,3 +54,20 @@ int main() {
   return 0;
 }
 ```
+
+#### **`getUSMeetups.cpp`** -> obtains cryptocurrency meetups in the United States
+```c
+#include "gecko.h"
+
+int main() {
+  gecko::api coinGecko;
+  
+  if (coinGecko.ping()) {
+    std::cout << coinGecko.events.getEvents("US", "Meetups").text << std::endl;
+  } else {
+    std::cout << "CoinGecko offline!" << std::endl;
+  }
+  
+  return 0;
+}
+```
