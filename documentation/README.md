@@ -4,28 +4,28 @@
 <h3 align="center">Documentation resources for the library and <a href="https://www.coingecko.com/">CoinGecko</a>'s API.</h3>
 <hr>
 <h2>Introduction</h2>
-<p>CoinGecko's source code follows a <code>topLevelObject.memberObject.memberObjectMethod()</code> code structure (with the exception of ping) like the one below:</p>
+<p>CoinGecko's source code follows an <code>object.memberObject.memberObjectMethod()</code> code structure (with the exception of ping) like the one below:</p>
 
 #### **`main.cpp`**
 ```c
-#include "topLevelClass.h"
+#include "parentClass.h"
 
 int main() {
-  topLevelClass topLevelObject;
-  topLevelObject.memberObject.memberObjectMethod();
+  parentClass object;
+  object.memberObject.memberObjectMethod();
   return 0;
 }
 ```
 
-#### **`topLevelClass.h`**
+#### **`parentClass.h`**
 ```c
-#include "otherClass1.h"
-#include "otherClass2.h"
+#include "childClass1.h"
+#include "childClass2.h"
 
-class topLevelClass {
+class parentClass {
   public: 
-    otherClass1 memberObject1;
-    otherClass2 memberObject2;
+    childClass1 memberObject1;
+    childClass2 memberObject2;
 };
 ```
 
