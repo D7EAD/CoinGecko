@@ -47,7 +47,6 @@ int main() {
   if (coinGecko.ping()) {
     // if online, get Bitcoin's most recent price in USD and print the JSON response
     std::cout << coinGecko.simple.getPrice("bitcoin", "usd").text << std::endl;
-    // refer to simple.h for default arguments
   } else {
     // if offline, print offline.
     std::cout << "CoinGecko offline!" << std::endl;
@@ -66,7 +65,6 @@ int main() {
   
   if (coinGecko.ping()) {
     std::cout << coinGecko.events.getEvents("US", "Meetups").text << std::endl;
-    // refer to events.h for default arguments
   } else {
     std::cout << "CoinGecko offline!" << std::endl;
   }
@@ -84,7 +82,6 @@ int main() {
   
   if (coinGecko.ping()) {
     std::cout << coinGecko.contract.getContractMarketHistory("ethereum", "0x4363e1485764d206b01ddc9ca121030585259f6f", "usd", "1").text << std::endl;
-    // refer to contract.h for default arguments
   } else {
     std::cout << "CoinGecko offline!" << std::endl;
   }
