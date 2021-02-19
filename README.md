@@ -47,6 +47,6 @@ Notes:
       <a href="/documentation/simple">simple/</a>                 : API 'simple' functions
       <a href="/documentation/status_updates">status_updates/</a>         : API 'status_updates' functions
       <a href="/documentation/trending">trending/</a>               : API 'trending' functions
-    <a href="/vs">vs/</a>                     : Visual Studio solution folder  
+    <a href="/vs">vs/</a>                    : Visual Studio solution folder  
     <a href="/images">images/</a>                : image folder for repository
 </pre>
