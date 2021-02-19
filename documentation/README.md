@@ -32,7 +32,7 @@ class parentClass {
 
 <br><br>
 <h2>Examples</h2>
-<p>All functions (except ping) return a <code>gecko::web::response</code> struct upon completion. You can find the definition of the struct and its members below:
+<p>All functions (except ping) return a <code>gecko::web::response</code> struct upon completion. You can find the struct and its members below:
 
 ```c
 typedef struct response {
