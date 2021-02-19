@@ -30,8 +30,6 @@ class parentClass {
 };
 ```
 
-<br>
-
 <p>All functions (except ping) return a gecko::web::response upon completion. You can find the definition of the struct and its members below:
 
 ```c
