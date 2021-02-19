@@ -30,6 +30,19 @@ class parentClass {
 };
 ```
 
+<br>
+
+<p>All functions (except ping) return a gecko::web::response upon completion. You can find the definition of the struct and its members below:
+
+```c
+typedef struct response {
+  std::string text;
+  std::string response_code;
+  std::string url;
+  cpr::Response cURL_Object;
+};
+```
+
 <br><br>
 <h2>Examples</h2>
 <p>Below you can find a few quick examples using CoinGecko.</p>
