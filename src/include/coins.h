@@ -13,7 +13,7 @@ namespace gecko {
 			//    listCoins(true)
 			//    listCoins(false)
 			// Notes: none
-			gecko::web::response listCoins(REQUIRED bool include_platform);
+			DllExport gecko::web::response listCoins(REQUIRED bool include_platform);
 
 			// Action: fetches all supported coins price, market cap, volume, and market related data
 			// Returns: gecko::web::response
