@@ -32,9 +32,6 @@ class parentClass {
 
 <br><br>
 <h2>Examples</h2>
-<p>Below you can find a few quick examples using CoinGecko.</p>
-<p><i>For documentation regarding individual functions, refer to the appropriate folder above.</i></p>
-<br>
 <p>All functions (except ping) return a <code>gecko::web::response</code> struct upon completion. You can find the definition of the struct and its members below:
 
 ```c
@@ -45,6 +42,10 @@ typedef struct response {
   cpr::Response cURL_Object;
 };
 ```
+<br>
+<p>Below you can find a few quick examples using CoinGecko.</p>
+<p><i>For documentation regarding individual functions, refer to the appropriate folder above.</i></p>
+
 
 #### **`getBitcoinPrice.cpp`** -> obtains current price of Bitcoin in USD
 ```c
