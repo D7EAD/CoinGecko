@@ -8,11 +8,11 @@
 
 ```c
 namespace gecko {
-	// Purpose: class interface to all CoinGecko 'exchanges' functions found below
-	// Refer: https://www.coingecko.com/api/documentations/v3#/exchanges_(beta)
-	// Status: beta, likely unstable - slightly tested
-	class exchangesFunctions : private web {
-    ..
+  // Purpose: class interface to all CoinGecko 'exchanges' functions found below
+  // Refer: https://www.coingecko.com/api/documentations/v3#/exchanges_(beta)
+  // Status: beta, likely unstable - slightly tested
+  class exchangesFunctions : private web {
+    ...
   };
 }
 ```
