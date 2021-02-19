@@ -43,8 +43,7 @@ typedef struct response {
 };
 ```
 <br>
-<p>Below you can find a few quick examples using CoinGecko.</p>
-<p><i>For documentation regarding individual functions, refer to the appropriate folder above.</i></p>
+<p>Below you can find a few quick examples using CoinGecko. <i>For documentation regarding individual functions, refer to the appropriate folder above.</i></p>
 
 
 #### **`getBitcoinPrice.cpp`** -> obtains current price of Bitcoin in USD
