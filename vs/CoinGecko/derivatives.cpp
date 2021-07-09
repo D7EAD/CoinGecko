@@ -16,7 +16,7 @@ gecko::web::response gecko::derivativesFunctions::listDerivativeTickers(OPTIONAL
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -42,7 +42,7 @@ gecko::web::response gecko::derivativesFunctions::getDerivativeMarketExchanges(O
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -63,7 +63,7 @@ gecko::web::response gecko::derivativesFunctions::getDerivativeExchangesData(REQ
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -73,7 +73,7 @@ gecko::web::response gecko::derivativesFunctions::getDerivativeExchangesNameAndI
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }

@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="asset_platforms.h" />
+    <ClInclude Include="categories.h" />
     <ClInclude Include="coins.h" />
+    <ClInclude Include="companies.h" />
     <ClInclude Include="contract.h" />
     <ClInclude Include="derivatives.h" />
     <ClInclude Include="events.h" />
@@ -35,7 +38,10 @@
     <ClInclude Include="web.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="asset_platforms.cpp" />
+    <ClCompile Include="categories.cpp" />
     <ClCompile Include="coins.cpp" />
+    <ClCompile Include="companies.cpp" />
     <ClCompile Include="contract.cpp" />
     <ClCompile Include="derivatives.cpp" />
     <ClCompile Include="events.cpp" />
@@ -153,6 +159,7 @@
       <Optimization>Custom</Optimization>
       <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <Link>
       <SubSystem>
@@ -195,6 +202,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <Optimization>Custom</Optimization>
       <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
     </ClCompile>
     <Link>
       <SubSystem>

@@ -20,12 +20,15 @@
 #include "exchange_rates.h"
 #include "trending.h"
 #include "global.h"
+#include "asset_platforms.h"
+#include "companies.h"
+#include "categories.h"
 
 // namespace containing all CoinGecko API thingies
 namespace gecko {
 	// Purpose: main class used to access all function classes
 	// Status: functional - ping() untested
-	class api : private web { // all classes
+	class api : private web {
 		public:
 			// object for user to access the CoinGecko API 'simple' functions.
 			simpleFunctions simple;
@@ -62,6 +65,15 @@ namespace gecko {
 
 			// ... 'global' functions ...
 			globalFunctions global;
+
+			// ... 'asset_platforms' functions ...
+			assetPlatformsFunctions asset_platforms;
+
+			// ... 'companies' functions ...
+			companiesFunctions companies;
+
+			// ... 'categories' functions ...
+			categoriesFunctions categories;
 
 			// Action: checks status of CoinGecko API
 			// Returns: true/false (online/offline)

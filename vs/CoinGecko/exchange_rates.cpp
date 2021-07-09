@@ -5,7 +5,7 @@ gecko::web::response gecko::exchange_ratesFunctions::getExchangeRates() {
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }

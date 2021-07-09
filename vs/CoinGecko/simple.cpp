@@ -27,7 +27,7 @@ gecko::web::response gecko::simpleFunctions::getPrice(
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -59,7 +59,7 @@ gecko::web::response gecko::simpleFunctions::getTokenPrice(
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -69,7 +69,7 @@ gecko::web::response gecko::simpleFunctions::getSupportedVsCurrencies() {
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }

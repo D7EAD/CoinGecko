@@ -34,7 +34,7 @@ gecko::web::response gecko::eventsFunctions::getEvents(
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -44,7 +44,7 @@ gecko::web::response gecko::eventsFunctions::getEventCountries() {
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -54,7 +54,7 @@ gecko::web::response gecko::eventsFunctions::getEventTypes() {
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }

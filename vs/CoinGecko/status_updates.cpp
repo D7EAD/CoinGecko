@@ -22,7 +22,7 @@ gecko::web::response gecko::status_updatesFunctions::getStatusUpdates(OPTIONAL c
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }

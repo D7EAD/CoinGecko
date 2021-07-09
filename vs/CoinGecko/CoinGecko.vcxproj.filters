@@ -57,6 +57,15 @@
     <ClInclude Include="web.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="asset_platforms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="categories.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="companies.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="coins.cpp">
@@ -99,6 +108,15 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="web.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="asset_platforms.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="companies.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="categories.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

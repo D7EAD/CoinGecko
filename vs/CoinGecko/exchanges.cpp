@@ -17,7 +17,7 @@ gecko::web::response gecko::exchangesFunctions::getExchanges(OPTIONAL unsigned s
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -27,7 +27,7 @@ gecko::web::response gecko::exchangesFunctions::listExchangeInfo() {
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -37,7 +37,7 @@ gecko::web::response gecko::exchangesFunctions::getExchangeVolume(REQUIRED std::
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -75,7 +75,7 @@ gecko::web::response gecko::exchangesFunctions::getExchangeTickers(
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -97,7 +97,7 @@ gecko::web::response gecko::exchangesFunctions::getExchangeStatusUpdates(REQUIRE
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -118,7 +118,7 @@ gecko::web::response gecko::exchangesFunctions::getExchangeVolumeChart(REQUIRED 
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }

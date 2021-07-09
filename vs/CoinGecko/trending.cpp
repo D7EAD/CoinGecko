@@ -5,7 +5,7 @@ gecko::web::response gecko::trendingFunctions::getTrendingCoins() {
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
