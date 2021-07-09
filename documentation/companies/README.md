@@ -1,7 +1,7 @@
 <p align="center">
   <img width="460" height="125" src="/images/coingecko.jpg">
 </p>
-<h3 align="center">Documentation resources for CoinGecko's <a href="https://www.coingecko.com/api/documentations/v3#/companies">'companies'</a> API functions.</h3>
+<h3 align="center">Documentation resources for CoinGecko's <a href="https://www.coingecko.com/api/documentations/v3#/companies_(beta)">'companies'</a> API functions.</h3>
 <hr>
 
 <h2>Class</h2>
@@ -9,7 +9,7 @@
 ```c
 namespace gecko {
   // Purpose: class interface to all CoinGecko 'companies' functions found below
-  // Refer: https://www.coingecko.com/api/documentations/v3#/companies
+  // Refer: https://www.coingecko.com/api/documentations/v3#/companies_(beta)
   // Status: functional - slightly tested
   class companiesFunctions : private web {
     ...
