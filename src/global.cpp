@@ -5,7 +5,7 @@ gecko::web::response gecko::globalFunctions::getGlobalCryptoData() {
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -15,7 +15,7 @@ gecko::web::response gecko::globalFunctions::getGlobalCryptoDefiData() {
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }

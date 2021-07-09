@@ -17,7 +17,7 @@ gecko::web::response gecko::financeFunctions::listFinancePlatforms(OPTIONAL unsi
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -44,7 +44,7 @@ gecko::web::response gecko::financeFunctions::listFinanceProducts(OPTIONAL const
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }

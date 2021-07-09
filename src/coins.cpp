@@ -16,7 +16,7 @@ gecko::web::response gecko::coinsFunctions::listCoins(REQUIRED bool include_plat
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -58,7 +58,7 @@ gecko::web::response gecko::coinsFunctions::getMarkets(
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -88,7 +88,7 @@ gecko::web::response gecko::coinsFunctions::getCoinData(
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -126,7 +126,7 @@ gecko::web::response gecko::coinsFunctions::getCoinTickers(
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -151,7 +151,7 @@ gecko::web::response gecko::coinsFunctions::getCoinHistory(REQUIRED std::string 
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -180,7 +180,7 @@ gecko::web::response gecko::coinsFunctions::getCoinMarketHistory(
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -206,7 +206,7 @@ gecko::web::response gecko::coinsFunctions::getCoinMarketHistoryWithinRange(
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -228,7 +228,7 @@ gecko::web::response gecko::coinsFunctions::getCoinStatusUpdates(REQUIRED std::s
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -250,7 +250,7 @@ gecko::web::response gecko::coinsFunctions::getCoinOHLC(REQUIRED std::string id,
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }

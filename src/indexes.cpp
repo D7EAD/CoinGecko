@@ -17,7 +17,7 @@ gecko::web::response gecko::indexesFunctions::listIndexes(OPTIONAL unsigned shor
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -27,7 +27,7 @@ gecko::web::response gecko::indexesFunctions::getMarketIndexByMarketIdAndIndexId
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -37,7 +37,7 @@ gecko::web::response gecko::indexesFunctions::listIndexInfo() {
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -47,7 +47,7 @@ gecko::web::response gecko::indexesFunctions::getMarketIndexByMarketIdAndMarketI
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }

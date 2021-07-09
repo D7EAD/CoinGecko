@@ -5,7 +5,7 @@ gecko::web::response gecko::contractFunctions::getCoinInfoFromContract(REQUIRED 
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -30,7 +30,7 @@ gecko::web::response gecko::contractFunctions::getContractMarketHistory(
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
@@ -56,7 +56,7 @@ gecko::web::response gecko::contractFunctions::getContractMarketHistoryWithinRan
 	return {
 		{r.text},
 		{std::to_string(r.status_code)},
-		{r.url},
+		{r.url.str()},
 		{r}
 	};
 }
