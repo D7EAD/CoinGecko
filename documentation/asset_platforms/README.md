@@ -25,11 +25,11 @@ namespace gecko {
 <h4><code>asset_platforms/getAssetPlatforms</code></h4>
 
 ```c
-// Action: lists all asset platforms (blockchain networks)
-// Returns: gecko::web::response
-// Refer: https://www.coingecko.com/api/documentations/v3
-// Example(s):
-//    getAssetPlatforms();
-// Notes: none
-gecko::web::response getAssetPlatforms();
+  // Action: lists all asset platforms (blockchain networks)
+  // Returns: gecko::web::response
+  // Refer: https://www.coingecko.com/api/documentations/v3
+  // Example(s):
+  //    getAssetPlatforms();
+  // Notes: none
+  gecko::web::response getAssetPlatforms();
 ```
