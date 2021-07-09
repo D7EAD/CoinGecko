@@ -22,7 +22,7 @@ namespace gecko {
 <h2>Declarations</h2>
 <p>Below you can find documentation for 'companies' functions.</p>
 
-<h4><code>asset_platforms/getAssetPlatforms</code></h4>
+<h4><code>companies/getCompaniesData</code></h4>
 
 ```c
   // Action: Get public companies bitcoin or ethereum holdings
