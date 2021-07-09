@@ -24,7 +24,7 @@ CoinGecko depends on the following packages:
 Notes:
 <ul>
   <li><i>All dependencies used to compile CoinGecko were implemented via vcpkg.</i></li>
-  <li>*CPR version in use is v1.5.2 as vcpkg has that as its most recent indexed version.</li>
+  <li>*CPR version in use is v1.6.2 as vcpkg has that as its most recent indexed version.</li>
 </ul>
 
 <br>
@@ -47,6 +47,9 @@ Notes:
       <a href="/documentation/simple">simple/</a>                 : API 'simple' functions
       <a href="/documentation/status_updates">status_updates/</a>         : API 'status_updates' functions
       <a href="/documentation/trending">trending/</a>               : API 'trending' functions
+      <a href="/documentation/asset_platforms">asset_platforms/</a>        : API 'asset_platforms' functions
+      <a href="/documentation/categories">categories/</a>             : API 'categories' functions
+      <a href="/documentation/companies">companies/</a>              : API 'companies' functions
     <a href="/vs">vs/</a>                    : Visual Studio solution folder  
     <a href="/images">images/</a>                : image folder for repository
 </pre>
