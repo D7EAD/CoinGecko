@@ -20,7 +20,7 @@ namespace gecko {
 <br>
 
 <h2>Declarations</h2>
-<p>Below you can find documentation for 'exchange_rates' functions.</p>
+<p>Below you can find documentation for 'asset_platforms' functions.</p>
 
 <h4><code>asset_platforms/getAssetPlatforms</code></h4>
 
