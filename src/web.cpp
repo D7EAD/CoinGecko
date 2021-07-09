@@ -71,8 +71,3 @@ std::unique_ptr<gecko::web::Bools> gecko::web::__buildBoolParameters(gecko::web:
 std::unique_ptr<gecko::web::Shorts> gecko::web::__buildShortParameters(gecko::web::Shorts _shorts) {
 	return std::make_unique<gecko::web::Shorts>(_shorts);
 }
-
-/*
-std::initializer_list<cpr::Parameter>* gecko::web::parameters(std::initializer_list<cpr::Parameter> keyValue) {
-	return &keyValue;
-}*/
