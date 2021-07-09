@@ -9,7 +9,7 @@
 ```c
 namespace gecko {
   // Purpose: class interface to all CoinGecko 'companies' functions found below
-  // Refer: https://www.coingecko.com/api/documentations/v3#/companies_(beta)
+  // Refer: https://www.coingecko.com/api/documentations/v3
   // Status: functional - slightly tested
   class companiesFunctions : private web {
     ...
