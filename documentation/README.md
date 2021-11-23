@@ -56,7 +56,7 @@ int main() {
 
     // check if CoinGecko API is online
     if (coinGecko.ping()) {
-        // if online, get Bitcoin's most recent price in USD and print the JSON response
+        // if online, get most recent prices in USD and print the JSON response
         gecko::web::response result = coinGecko.simple.getPrice("bitcoin,ethereum,xrp,dogecoin,monero", "usd");
 
         // iterate over JSON values (you can also print raw JSON via web::response's member .text)
