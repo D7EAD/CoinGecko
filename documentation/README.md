@@ -37,9 +37,7 @@ class parentClass {
 ```c
 class response {
   public:
-	std::string text;
-	std::string response_code;
-	std::string url;
+	std::string text, response_code, url;
 	cpr::Response cURL_Object;
 	nlohmann::json json;
 };
