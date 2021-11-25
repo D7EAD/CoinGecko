@@ -32,53 +32,39 @@ class parentClass {
 
 <br><br>
 <h2>Examples</h2>
-<p>All functions (except ping) return a <code>gecko::web::response</code> object upon completion. You can find the object and its members below:
+<p>All functions (except ping) return a <code>gecko::web::response</code> struct upon completion. You can find the struct and its members below:
 
 ```c
-class response {
-  public:
-	std::string text, response_code, url;
-	cpr::Response cURL_Object;
-	nlohmann::json json;
+typedef struct response {
+  std::string text;
+  std::string response_code;
+  std::string url;
+  cpr::Response cURL_Object;
 };
 ```
 <br>
 <p>Below you can find a few quick examples using CoinGecko. <i>For documentation regarding individual functions, refer to the appropriate folder above.</i></p>
 
 
-#### **`getCoinPrices.cpp`** -> obtains current price of several coins in USD
+#### **`getBitcoinPrice.cpp`** -> obtains current price of Bitcoin in USD
 ```c
 #include "gecko.h"
 
 int main() {
-    // CoinGecko main class object
-    gecko::api coinGecko;
-
-    // check if CoinGecko API is online
-    if (coinGecko.ping()) {
-        // if online, get most recent prices in USD and print the JSON response
-        gecko::web::response result = coinGecko.simple.getPrice("bitcoin,ethereum,xrp,dogecoin,monero", "usd");
-
-        // iterate over JSON values (you can also print raw JSON via web::response's member .text)
-        for (auto coin : result.json.items()) {
-            std::cout << coin.key() << ": " << coin.value()["usd"] << std::endl;
-        }
-    }
-    else {
-        // if offline, print offline.
-        std::cout << "CoinGecko offline!" << std::endl;
-    }
-
-    return 0;
+  // CoinGecko main class object
+  gecko::api coinGecko;
+  
+  // check if CoinGecko API is online
+  if (coinGecko.ping()) {
+    // if online, get Bitcoin's most recent price in USD and print the JSON response
+    std::cout << coinGecko.simple.getPrice("bitcoin", "usd").text << std::endl;
+  } else {
+    // if offline, print offline.
+    std::cout << "CoinGecko offline!" << std::endl;
+  }
+  
+  return 0;
 }
-
-/*
-Example output
-  bitcoin: 56041
-  dogecoin: 0.218788
-  ethereum: 4112.31
-  monero: 227.56
-*/
 ```
 
 #### **`getUSMeetups.cpp`** -> obtains cryptocurrency meetups in the United States
@@ -89,7 +75,6 @@ int main() {
   gecko::api coinGecko;
   
   if (coinGecko.ping()) {
-    // print raw JSON (can also be parsed via web::response's member .json)
     std::cout << coinGecko.events.getEvents("US", "Meetups").text << std::endl;
   } else {
     std::cout << "CoinGecko offline!" << std::endl;
