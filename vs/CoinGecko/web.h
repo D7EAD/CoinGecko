@@ -6,7 +6,6 @@
 #include <map>
 #include <memory>
 #include <cpr/cpr.h>
-#include <nlohmann/json.hpp>
 
 // reminds you of MS' __in and __in_opt, huh? ;)
 #define OPTIONAL
@@ -17,25 +16,16 @@ namespace gecko {
 	// Purpose: class interface used internally(privately) by *functions class methods to send requests to the CoinGecko endpoint.
 	class web {
 		public:
-			// class that is returned to the user by *functions class methods so they don't have to deal with the whole CPR object -- unless they want
-			class response {
-				public:
-					response(
-						std::string _text,
-						std::string _response_code,
-						std::string _url,
-						cpr::Response _cURL_Object
-					) : text(_text), response_code(_response_code), url(_url), cURL_Object(_cURL_Object), json(nlohmann::json::parse(_text)) {}
-
-					std::string text;
-					std::string response_code;
-					std::string url;
-					cpr::Response cURL_Object;
-					nlohmann::json json;
+			// struct that is returned to the user by *functions class methods so they don't have to deal with the whole CPR object -- unless they want
+			typedef struct response {
+				std::string text;
+				std::string response_code;
+				std::string url;
+				cpr::Response cURL_Object;
 			};
 
 			// function for sending GET request to API at 'this->endpoint+endpointPath' with optional parameters.
-			cpr::Response request (
+			cpr::Response request(
 				REQUIRED std::string endpointPath,
 				OPTIONAL cpr::Parameters* parameters
 			);
