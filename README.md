@@ -21,12 +21,10 @@ CoinGecko depends on the following packages:
   <li><a href="https://github.com/whoshuu/cpr">CPR</a> : cURL wrapper to make it less monotonous (v1.6.2)</li>
   <li><a href="https://www.openssl.org/">OpenSSL</a> : to be able to make HTTPS requests (v1.1.1k#6)</li>
   <li><a href="https://github.com/madler/zlib">zlib</a> : used internally in cURL for compression (v1.2.11#10)</li>
-  <li>*<a href="https://github.com/nlohmann/json">nlohmann-json</a> : used to allow the user to extract response values (v3.9.1)</li>
 </ul>
 Notes:
 <ul>
   <li><i>All dependencies used to compile CoinGecko were implemented via vcpkg.</i></li>
-  <li><i>*May be removed in a future release.</i></li>  
 </ul>
 
 <br>
