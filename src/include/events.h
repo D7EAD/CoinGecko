@@ -13,6 +13,7 @@ namespace gecko {
 			//    getEvents()
 			//    getEvents("CN", "Meetup")
 			// Notes: parameters from and to_date are in format yyyy-mm-dd
+			[[deprecated("Method deprecated by CoinGecko team; will be removed in the future.")]]
 			DllExport gecko::web::response getEvents(
 				OPTIONAL std::string country_code = "US",
 				OPTIONAL std::string type = "Conference",
@@ -28,6 +29,7 @@ namespace gecko {
 			// Example(s):
 			//    getEventCountries()
 			// Notes: none
+			[[deprecated("Method deprecated by CoinGecko team; will be removed in the future.")]]
 			DllExport gecko::web::response getEventCountries();
 
 			// Action: fetches list of event types
@@ -36,6 +38,7 @@ namespace gecko {
 			// Example(s):
 			//    getEventTypes()
 			// Notes: none
+			[[deprecated("Method deprecated by CoinGecko team; will be removed in the future.")]]
 			DllExport gecko::web::response getEventTypes();
 	};
 }
