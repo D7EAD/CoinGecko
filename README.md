@@ -38,7 +38,7 @@ Notes:
       <a href="/documentation/coins">coins/</a>                  : API 'coins' functions
       <a href="/documentation/contract">contract/</a>               : API 'contract' functions
       <a href="/documentation/derivatives">derivatives/</a>            : API 'derivatives' functions
-      <a href="/documentation/events">events/</a>                 : API 'events' functions         [DEPRECATED]
+      <a href="/documentation/events">events/</a>                 : API 'events' functions                 [DEPRECATED]
       <a href="/documentation/exchange_rates">exchange_rates/</a>         : API 'exchange_rates' functions 
       <a href="/documentation/exchanges">exchanges/</a>              : API 'exchanges' functions
       <a href="/documentation/finance">finance/</a>                : API 'finance' functions
