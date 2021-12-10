@@ -2,6 +2,7 @@
   <img width="460" height="125" src="/images/coingecko.jpg">
 </p>
 <h3 align="center">Documentation resources for CoinGecko's <a href="https://www.coingecko.com/api/documentations/v3#/events">'events'</a> API functions.</h3>
+<h3 align="center">As of 11/23/2021, these functions are deprecated and will be removed in a future update.</h3>
 <hr>
 
 <h2>Class</h2>
