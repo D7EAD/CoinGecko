@@ -17,10 +17,10 @@ You can find a starting point, sample code, and all other documentation within <
 <h2>Dependencies</h2>
 CoinGecko depends on the following packages:
 <ul>
-  <li><a href="https://curl.se/">cURL</a> : C library for HTTP(S) things (v7.74.0#8)</li>
-  <li><a href="https://github.com/whoshuu/cpr">CPR</a> : cURL wrapper to make it less monotonous (v1.6.2)</li>
-  <li><a href="https://www.openssl.org/">OpenSSL</a> : to be able to make HTTPS requests (v1.1.1k#6)</li>
-  <li><a href="https://github.com/madler/zlib">zlib</a> : used internally in cURL for compression (v1.2.11#10)</li>
+  <li><a href="https://curl.se/">cURL</a> : C library for HTTP(S) things (v7.80.0)</li>
+  <li><a href="https://github.com/whoshuu/cpr">CPR</a> : cURL wrapper to make it less monotonous (v1.7.2)</li>
+  <li><a href="https://www.openssl.org/">OpenSSL</a> : to be able to make HTTPS requests (v1.1.1l#4)</li>
+  <li><a href="https://github.com/madler/zlib">zlib</a> : used internally in cURL for compression (v1.2.11#13)</li>
 </ul>
 Notes:
 <ul>
