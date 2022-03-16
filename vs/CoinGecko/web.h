@@ -16,8 +16,8 @@ namespace gecko {
 	// Purpose: class interface used internally(privately) by *functions class methods to send requests to the CoinGecko endpoint.
 	class web {
 		public:
-			// struct that is returned to the user by *functions class methods so they don't have to deal with the whole CPR object -- unless they want
-			typedef struct response {
+			// class that is returned to the user by *functions class methods so they don't have to deal with the whole CPR object -- unless they want
+			struct response {
 				std::string text;
 				std::string response_code;
 				std::string url;
@@ -25,7 +25,7 @@ namespace gecko {
 			};
 
 			// function for sending GET request to API at 'this->endpoint+endpointPath' with optional parameters.
-			cpr::Response request(
+			cpr::Response request (
 				REQUIRED std::string endpointPath,
 				OPTIONAL cpr::Parameters* parameters
 			);

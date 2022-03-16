@@ -24,9 +24,6 @@
     <ClInclude Include="derivatives.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="events.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="exchanges.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -75,9 +72,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="derivatives.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="events.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="exchange_rates.cpp">
