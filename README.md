@@ -13,18 +13,18 @@
 
 You can find a starting point, sample code, and all other documentation within <a href="/documentation">/documentation</a>.</p>
 
-<br>
+<br
 <h2>Dependencies</h2>
+
+> **Note**
+> All dependencies used to compile CoinGecko were implemented via vcpkg.
+
 CoinGecko depends on the following packages:
 <ul>
   <li><a href="https://curl.se/">cURL</a> : C library for HTTP(S) things (v7.84.0)</li>
   <li><a href="https://github.com/whoshuu/cpr">CPR</a> : cURL wrapper to make it less monotonous (v1.8.3)</li>
   <li><a href="https://www.openssl.org/">OpenSSL</a> : to be able to make HTTPS requests (v3.0.5)</li>
   <li><a href="https://github.com/madler/zlib">zlib</a> : used internally in cURL for compression (v1.2.12#1)</li>
-</ul>
-Notes:
-<ul>
-  <li><i>All dependencies used to compile CoinGecko were implemented via vcpkg.</i></li>
 </ul>
 
 <br>
