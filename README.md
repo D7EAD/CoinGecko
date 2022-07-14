@@ -13,7 +13,7 @@
 
 You can find a starting point, sample code, and all other documentation within <a href="/documentation">/documentation</a>.</p>
 
-<br
+<br>
 <h2>Dependencies</h2>
 
 > **Note**
