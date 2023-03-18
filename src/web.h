@@ -10,7 +10,12 @@
 // reminds you of MS' __in and __in_opt, huh? ;)
 #define OPTIONAL
 #define REQUIRED
-#define DllExport   __declspec( dllexport )
+
+#ifdef __linux__
+	#define DllExport
+#else
+	#define DllExport __declspec(dllexport)
+#endif
 
 namespace gecko {
 	// Purpose: class interface used internally(privately) by *functions class methods to send requests to the CoinGecko endpoint.
